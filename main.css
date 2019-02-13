@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+#placeholder, #placeholder2 {
+    height: 350px;
+    width: 350px;
+    margin: 50px auto;
+    border-radius: 80px;  
+    font-size:80px;
+    
+ 
+  }
+.instructions {
+    float: right;
+    border: 10px dotted  rgb(236, 166, 236);
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+  button {
+    background-color: rgb(236, 166, 236);
+    border-radius: 20px;
+    border: 8px dotted rgb(255, 255, 255);
+    color: rgb(230, 230, 230);
+    padding-top: 10px;
+    text-transform: uppercase;
+    width: 400px;
+    height: 120px;
+    cursor: pointer;
+    font-size: 60px;
+    display: block;
+    margin-left: 800px;
+    margin-right: auto;
+    font-family: 'Abril Fatface', cursive;
+}
+    
+
+button:hover {
+    background-color: rgb(255, 51, 153)
+}
+    
+
+
+div {
+    margin-left: 100px;
+}
+p {
+    font-size: 70px;
+    font-family: 'Abril Fatface', cursive;
+    margin-left: 200px;
+}
+h1 {
+    font-size: 70px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+
+}
+.a {
+
+    list-style-type: circle;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+    text-align: left;
+    list-style-position: inside;
+   
+
+  
+  }
+  
+  
+  
+
+
+#points, #points2  {
+    font-size: 50px;
+    margin-left: 200px;
+  
+    
+}
+
