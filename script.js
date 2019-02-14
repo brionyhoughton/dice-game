@@ -12,7 +12,7 @@ function roll(){
     else if (player2 == true && player1 == false){
         roll2()
     } else {
-        alert("shit")
+        alert("error")
     }
 
 }
