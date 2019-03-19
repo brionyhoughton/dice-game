@@ -2,39 +2,63 @@ body {
     background-color: rgb(230, 230, 230);
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "player1 instructions"
+     "player2 button";
+  }
+  
 #placeholder, #placeholder2 {
-    height: 350px;
-    width: 350px;
-    margin: 50px auto;
-    border-radius: 80px;  
+    height: 200px;
+    width: 200px;
+    margin-top: 100px;
+    border-radius: 50px;  
     font-size:80px;
+    background-color: gray;
+    padding-bottom: 0px;
     
  
   }
+
+  .player1  {
+      grid-area: player1
+  }
+
+  .player2 {
+      grid-area: player2
+  }
+
 .instructions {
-    float: right;
     border: 10px dotted  rgb(236, 166, 236);
-    margin-right: 200px;
-    margin-top: 50px;
+    margin-top: 100px;
+    grid-area: instructions;
+    height: 270px;
+    width: 300px;
+
 }
 
   button {
+    grid-area: button;
     background-color: rgb(236, 166, 236);
     border-radius: 20px;
     border: 8px dotted rgb(255, 255, 255);
     color: rgb(230, 230, 230);
     padding-top: 10px;
     text-transform: uppercase;
-    width: 400px;
-    height: 120px;
+    width: 300px;
+    height: 100px;
     cursor: pointer;
-    font-size: 60px;
+    font-size: 40px;
     display: block;
-    margin-left: 800px;
-    margin-right: auto;
+    margin-left: 100px;
+    margin-top: 100px;
     font-family: 'Abril Fatface', cursive;
-}
+    grid-area: button
     
+  }
 
 button:hover {
     background-color: rgb(255, 51, 153)
@@ -46,12 +70,13 @@ div {
     margin-left: 100px;
 }
 p {
-    font-size: 70px;
+    font-size: 40px;
     font-family: 'Abril Fatface', cursive;
-    margin-left: 200px;
+    margin-left: 30px;
+    padding: 10px;
 }
 h1 {
-    font-size: 70px;
+    font-size: 40px;
     font-family: 'Abril Fatface', cursive;
     text-align: center;
 
@@ -60,7 +85,7 @@ h1 {
 
     list-style-type: circle;
     font-family: 'Abril Fatface', cursive;
-    font-size: 40px;
+    font-size: 20px;
     text-align: left;
     list-style-position: inside;
    
@@ -73,9 +98,8 @@ h1 {
 
 
 #points, #points2  {
-    font-size: 50px;
-    margin-left: 200px;
-  
+    font-size: 30px;
+    margin-left: 30px;
     
 }
 
